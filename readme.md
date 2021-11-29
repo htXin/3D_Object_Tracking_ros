@@ -38,12 +38,12 @@ Thanks for the [https://github.com/xinshuoweng/AB3DMOT]!!!
 4.Application platform
 
        4.1 Compile
-       		$ cd path/to/fusion_platform
+       	$ cd path/to/fusion_platform
 		$ catkin_make
        4.2 Run the result topic message to accept the package and visualize it
 		$ source devel/setup.bash
 		$ rosrun fusion_model sub_fusion_result.py --data_ot_path ~/path/data/KITTI/resources/testing
-                ( "--data_ot_path ~/path/data/KITTI/resources/testing"  the path is determined by where the dataset is placed )
+            ( "--data_ot_path ~/path/data/KITTI/resources/testing"  the path is determined by where the dataset is placed )
        4.3 Running result topic message sending package
 		$ source devel/setup.bash
 		$ rosrun fusion_model pub_fusion_result.py --data_root_path ~/path/data/KITTI --result_sha pointrcnn_Car_test
