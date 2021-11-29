@@ -16,20 +16,20 @@
 	llvmlite==0.31.0 (for python 2.7)
 	numba==0.43.1
 	
-To install required dependencies on the system python, please run the following command at the root of this code:
-$ cd path/to/fusion_platform
-$ pip install -r requirements.txt
+	2.1 To install required dependencies on the system python, please run the following command at the root of this code:
+	$ cd path/to/fusion_platform
+	$ pip install -r requirements.txt
 
 3.Dataset preparation:
 
-|---KITTI---|
-	|---pointrcnn_Car_test
-	|
-	|---resources----|
-		|----testing---|
-			|---calib
-			|
-			|---Image_02
+	|---KITTI---|
+		|---pointrcnn_Car_test
+		|
+		|---resources----|
+			|----testing---|
+				|---calib
+				|
+				|---Image_02
 			  
 4.Application platform
 
