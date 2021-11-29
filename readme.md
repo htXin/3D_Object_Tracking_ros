@@ -21,7 +21,7 @@ $ cd path/to/fusion_platform
 $ pip install -r requirements.txt
 
 3.Dataset preparation:
-data
+
 |---KITTI---|
           |---pointrcnn_Car_test
 	  |
@@ -30,6 +30,7 @@ data
                           |---calib
                           |
                           |---Image_02
+			  
 4.Application platform
 
        4.1 Compile
