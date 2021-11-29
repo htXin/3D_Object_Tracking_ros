@@ -1,0 +1,8 @@
+prefix=/home/xht/fusion_platform/install
+
+Name: fusion_model
+Description: Description of fusion_model
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

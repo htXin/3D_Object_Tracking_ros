@@ -1,0 +1,2 @@
+fusion_model
+-DCATKIN_DEVEL_PREFIX=/home/xht/fusion_platform/devel -DCMAKE_INSTALL_PREFIX=/home/xht/fusion_platform/install -G Unix Makefiles
