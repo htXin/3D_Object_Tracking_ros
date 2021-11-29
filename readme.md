@@ -23,13 +23,13 @@ $ pip install -r requirements.txt
 3.Dataset preparation:
 
 |---KITTI---|
-          |---pointrcnn_Car_test
-	  |
-          |---resources----|
-                          |----testing---|
-                          |---calib
-                          |
-                          |---Image_02
+	|---pointrcnn_Car_test
+	|
+	|---resources----|
+		|----testing---|
+			|---calib
+			|
+			|---Image_02
 			  
 4.Application platform
 
